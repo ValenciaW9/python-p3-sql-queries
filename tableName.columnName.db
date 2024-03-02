@@ -1,0 +1,13 @@
+CREATE TABLE dogs (
+  id INTEGER PRIMARY KEY,
+  name TEXT
+);
+
+
+INSERT INTO dogs (name) VALUES ("Clifford");
+
+
+SELECT name FROM cats,dogs;
+
+
+SELECT cats.name, dogs.name FROM cats, dogs;

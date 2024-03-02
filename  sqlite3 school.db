@@ -1,0 +1,30 @@
+CREATE TABLE students (
+id INTEGER PRIMARY KEY.
+name TEXT,
+Age INTEGER,
+grade TEXT
+);
+
+INSERT INTO students (name, age, grade)
+VALUES ('ALICE', 18, 'A');
+INSERT INTO students( name, age, grade)
+VALUES ('CHARLIE', 17, 'A');
+INSERT INTO students (name, age, grade)
+VALUES ('DAVID', 20, 'C');
+
+sql Query:
+
+SELECT * FROM students WHERE age >= 10;
+
+sql query:
+
+SELECT name FROM students ORDER BY name ASC;
+
+
+SELECT  COUNT(*) FROM students;
+
+
+SELECT AVG(age) FROM students;
+
+
+
